@@ -2,16 +2,22 @@
   "name": "plantix",
   "version": "1.0.0",
   "description": "Fullstack coding challenge",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "npx nodemon",
+    "start": "tsc && npx nodemon",
     "dev": "npx nodemon",
-    "test": "node tests/index.test.js"
+    "test": "node tests/index.test.js",
+    "build": "tsc && npx nodemon"
   },
   "author": "Faisal Khan",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
   }
 }
