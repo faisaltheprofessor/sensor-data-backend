@@ -1,8 +1,10 @@
 const express = require('express');
 const fs = require('fs');
-const cors = require('cors')
+const cors = require('cors');
 const allowedOrigins = require('./allowedOrigins.js');
+const PORT = 8000;
 
+let sensorData = [];
 const app = express();
 app.use(cors({
     origin: function (origin, callback) {
@@ -12,24 +14,23 @@ app.use(cors({
             callback(new Error('Not allowed by CORS'));
         }
     }
-}))
+}));
 
 app.use(express.urlencoded({ extended: true }));
-
-const PORT = 8000;
-let sensorData = [];
 
 // Load existing sensor data from data.json when the server starts
 fs.readFile('./data.json', 'utf8', (err, data) => {
     if (err) {
-        // Create data.json if it does not exist and add an empty array
         fs.writeFile('./data.json', '[]', (err) => {
             if (err) {
-                console.error('Error creating data.json');
+                console.error('\x1b[31mError creating data.json\x1b[0m');
+            } else {
+                console.log('\x1b[32mData.json file created successfully\x1b[0m');
             }
         });
     } else {
         sensorData = JSON.parse(data);
+        console.log('\x1b[32mExisting sensor data loaded successfully\x1b[0m');
     }
 });
 
@@ -39,78 +40,77 @@ app.get('/sensors/data', (req, res) => {
     const startIndex = (page - 1) * limit;
     const endIndex = page * limit;
 
-    let paginatedData = sensorData.slice(startIndex, endIndex);
+    fs.readFile('./data.json', 'utf8', (err, data) => {
+        if (err) {
+            console.error('\x1b[31mError reading data file\x1b[0m');
+            return res.status(500).json({ error: 'Error reading data file' });
+        }
 
-    if (desc === 'true') {
-        paginatedData = paginatedData.reverse();
-    }
+        let sensorData = JSON.parse(data);
+        console.log('\x1b[32mSensor data retrieved for pagination\x1b[0m');
 
-    // Calculate the next and previous page numbers
-    const nextPage = parseInt(page) + 1;
-    const prevPage = parseInt(page) - 1;
-    const totalPages = Math.ceil(sensorData.length / limit);
+        let paginatedData = desc === 'true' ?
+            sensorData.slice().reverse().slice(startIndex, endIndex) :
+            sensorData.slice(startIndex, endIndex);
 
-    // Create base URL without the limit parameter
-    const baseUrl = `${req.protocol}://${req.get('host')}/sensors/data`;
-    
-    // Create URLs for self, first, last, next, and prev pages
-    const selfUrl = `${baseUrl}?page=${page}&desc=${desc || 'false'}`;
-    const firstUrl = `${baseUrl}?page=1&desc=${desc || 'false'}`;
-    const lastUrl = `${baseUrl}?page=${totalPages}&desc=${desc || 'false'}`;
-    const nextUrl = nextPage <= totalPages ? `${baseUrl}?page=${nextPage}&desc=${desc || 'false'}` : null;
-    const prevUrl = prevPage > 0 ? `${baseUrl}?page=${prevPage}&desc=${desc || 'false'}` : null;
+        const nextPage = parseInt(page) + 1;
+        const prevPage = parseInt(page) - 1;
+        const totalPages = Math.ceil(sensorData.length / limit);
+        const baseUrl = `${req.protocol}://${req.get('host')}/sensors/data`;
+        const selfUrl = `${baseUrl}?page=${page}&desc=${desc || 'false'}`;
+        const firstUrl = `${baseUrl}?page=1&desc=${desc || 'false'}`;
+        const lastUrl = `${baseUrl}?page=${totalPages}&desc=${desc || 'false'}`;
+        const nextUrl = nextPage <= totalPages ? `${baseUrl}?page=${nextPage}&desc=${desc || 'false'}` : null;
+        const prevUrl = prevPage > 0 ? `${baseUrl}?page=${prevPage}&desc=${desc || 'false'}` : null;
 
-    // Create the links object with the pagination URLs
-    const links = {
-        self: selfUrl,
-        first: firstUrl,
-        last: lastUrl,
-        next: nextUrl,
-        prev: prevUrl
-    };
+        const links = {
+            self: selfUrl,
+            first: firstUrl,
+            last: lastUrl,
+            next: nextUrl,
+            prev: prevUrl
+        };
 
-    res.json({ data: paginatedData, links });
+        console.log('\x1b[32mPagination links generated\x1b[0m');
+        res.json({ data: paginatedData, links });
+    });
 });
-
-
-
 
 // POST endpoint to store sensor data
 app.post('/sensors/data', (req, res) => {
     const { sensorId, type, value, timestamp } = req.body;
     const errors = [];
-    
-    // Validation for sensor ID
+
     if (!sensorId) {
-        errors.push('Sensor ID is missing');
+        errors.push('sensorId is missing');
     } else if (isNaN(sensorId) || !Number.isInteger(Number(sensorId))) {
-        errors.push('Sensor ID must be an integer');
+        errors.push('sensorId must be an integer');
     } else if (sensorData.some(data => data.sensorId === Number(sensorId))) {
-        errors.push('Sensor ID must be unique');
+        errors.push('sensorId must be unique');
+        console.error('\x1b[31mSensor ID already exists\x1b[0m');
+        return res.status(500).json({ success: false, error: 'A record with the same Sensor ID exists' });
     }
-    
-    // Other validations
+
     if (!type) {
-        errors.push('Type is missing');
+        errors.push('type is missing');
     }
     if (!value) {
-        errors.push('Value is missing');
+        errors.push('value is missing');
     } else if (isNaN(value) || !Number.isFinite(Number(value))) {
         errors.push('Value must be a numeric value');
     }
 
-// Validation for timestamp (ensure it is in date + time format)
-if (!timestamp) {
-    errors.push('Timestamp is missing');
-} else {
-    const dateRegex = /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/;
-    if (!dateRegex.test(timestamp)) {
-        errors.push('Timestamp must be in the format: yyyy-mm-dd HH:mm:ss');
+    if (!timestamp) {
+        errors.push('timestamp is missing');
+    } else {
+        const dateRegex = /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/;
+        if (!dateRegex.test(timestamp)) {
+            errors.push('timestamp must be in the format: yyyy-mm-dd HH:mm:ss');
+        }
     }
-}
-
 
     if (errors.length > 0) {
+        console.error('\x1b[31mValidation errors:\x1b[0m', errors);
         return res.status(400).json({ errors });
     }
 
@@ -118,11 +118,12 @@ if (!timestamp) {
     sensorData.push(newSensorData);
     fs.writeFile('./data.json', JSON.stringify(sensorData), (err) => {
         if (err) {
-            return res.status(500).json({ error: 'Error saving data' });
+            console.error('\x1b[31mError saving data\x1b[0m');
+            return res.status(500).json({ success: false, error: 'Error saving data' });
         }
-        return res.status(201).json(newSensorData);
+        console.log('\x1b[32mNew sensor data saved successfully:\x1b[0m', newSensorData);
+        return res.status(201).json({ success: true, data: newSensorData });
     });
 });
 
-
-app.listen(PORT, () => console.log(`Server Started at Port ${PORT}`));
+app.listen(PORT, () => console.log('\x1b[36mServer Started at Port ${PORT}\x1b[0m'));
