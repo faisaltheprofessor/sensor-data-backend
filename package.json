@@ -2,10 +2,10 @@
   "name": "plantix",
   "version": "1.0.0",
   "description": "Fullstack coding challenge",
-  "main": "src/index.ts",
+  "main": "src/server.ts",
   "scripts": {
-    "start": "npx ts-node-dev --respawn --transpile-only src/index.ts",
-    "dev": "npx ts-node-dev --respawn --transpile-only src/index.ts",
+    "start": "npx ts-node-dev --respawn --transpile-only src/server.ts",
+    "dev": "npx ts-node-dev --respawn --transpile-only src/server.ts",
     "test": "node tests/index.test.js",
     "build": "tsc"
   },
@@ -16,6 +16,7 @@
     "express": "^4.19.2"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
     "@types/node": "^20.12.12",
     "typescript": "^5.4.5"
