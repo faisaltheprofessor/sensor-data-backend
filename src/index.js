@@ -1,7 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const cors = require('cors');
-const allowedOrigins = require('./allowedOrigins.js');
+const allowedOrigins = require('./config/allowedOrigins.js');
 const PORT = 8000;
 
 let sensorData = [];
@@ -87,7 +87,7 @@ app.post('/sensors/data', (req, res) => {
         errors.push('sensorId must be an integer');
     } else if (sensorData.some(data => data.sensorId === Number(sensorId))) {
         errors.push('sensorId must be unique');
-        console.error('\x1b[31mSensor ID already exists\x1b[0m');
+        console.error(`\x1b[31mSensor ID ${ sensorId } already exists\x1b[0m`);
         return res.status(500).json({ success: false, error: 'A record with the same Sensor ID exists' });
     }
 
