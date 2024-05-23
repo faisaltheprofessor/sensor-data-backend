@@ -92,9 +92,10 @@ app.post('/sensors/data', (req: Request, res: Response) => {
     if (!type) errors.push('type is missing')
     if (!value || isNaN(value) || !Number.isFinite(Number(value))) errors.push(!value ? 'value is missing' : 'Value must be a numeric value')
 
-    if (!timestamp || !/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/.test(timestamp)) {
-        errors.push(!timestamp ? 'timestamp is missing' : 'timestamp must be in the format: yyyy-mm-dd HH:mm:ss')
-    }
+        if (!timestamp || !/^\d{4}-\d{2}-\d{2} (?:[01]\d|2[0-3]):[0-5]\d:[0-5]\d$/.test(timestamp)) {
+            console.log(timestamp)
+            errors.push(!timestamp ? 'timestamp is missing' : 'timestamp must be in the format: yyyy-mm-dd HH:mm:ss. Valid time range is from 00:00:00 to 23:59:59');
+        }
 
     if (errors.length > 0) {
         console.error('\x1b[31mValidation errors:\x1b[0m', errors)
