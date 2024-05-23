@@ -126,4 +126,4 @@ app.post('/sensors/data', (req, res) => {
     });
 });
 
-app.listen(PORT, () => console.log('\x1b[36mServer Started at Port ${PORT}\x1b[0m'));
+app.listen(PORT, () => console.log(`\x1b[36mServer Started at Port ${PORT}\x1b[0m`));
