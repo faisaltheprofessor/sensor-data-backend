@@ -62,17 +62,17 @@ const getPaginatedSensorData = (page: number, limit: number, desc: boolean): Pro
 const addSensorData = (sensorId: number, type: string, value: number, timestamp: number): Promise<any> => {
     return new Promise((resolve, reject) => {
         if (sensorData.some((data) => data.sensorId === sensorId)) {
-            reject(`A record with sensor id ${sensorId} exists`);
+            reject(`\x1b[32mA record with sensor id ${sensorId} exists\x1b[0m`);
         } else {
             const newData = { sensorId, type, value, timestamp };
             sensorData.push(newData);
 
             fs.writeFile("./data.json", JSON.stringify(sensorData), (err: string) => {
                 if (err) {
-                    console.error("Error saving data");
+                    console.error("\x1b[31mError saving data\x1b[0m");
                     reject("Error saving data");
                 } else {
-                    console.log("New sensor data saved successfully:", newData);
+                    console.log("\x1b[32mNew sensor data saved successfully:\x1b[0m", newData);
                     resolve(newData);
                 }
             });

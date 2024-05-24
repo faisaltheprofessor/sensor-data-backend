@@ -24,7 +24,7 @@ export const createSensorData = (req: Request, res: Response) => {
       res.status(201).json({ success: true, data: newData });
     })
     .catch((error) => {
-      console.error("Error saving sensor data", error);
+      console.error("\x1b[31mError saving sensor data:\x1b[0m", error);
       res.status(500).json({ success: false, error: `A record with sensor id ${sensorId} exists` });
     });
 };
