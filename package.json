@@ -2,12 +2,11 @@
   "name": "plantix",
   "version": "1.0.0",
   "description": "Fullstack coding challenge",
-  "main": "src/server.ts",
+  "main": "src/app.ts",
   "scripts": {
-    "start": "npx ts-node-dev --respawn --transpile-only src/server.ts",
-    "dev": "npx ts-node-dev --respawn --transpile-only src/server.ts",
-    "test": "node tests/index.test.js",
-    "build": "tsc"
+    "start": "npx ts-node-dev --respawn --transpile-only src/app.ts",
+    "dev": "npx ts-node-dev --respawn --transpile-only src/app.ts",
+    "test": "vitest"
   },
   "author": "Faisal Khan",
   "license": "ISC",
@@ -19,6 +18,7 @@
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
     "@types/node": "^20.12.12",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
   }
 }
