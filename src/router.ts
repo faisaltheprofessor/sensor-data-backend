@@ -78,7 +78,6 @@ router.get("/sensors/data", (req: Request, res: Response) => {
 });
 
 router.post("/sensors/data", (req: Request, res: Response) => {
-  console.log(req.body);
   const { sensorId, type, value, timestamp } = req.body;
   const errors = [];
 
@@ -116,7 +115,7 @@ router.post("/sensors/data", (req: Request, res: Response) => {
         ? "timestamp is missing"
         : "Timestamp must be valid and in the format: yyyy-mm-dd HH:mm:ss"
     );
-    return res.status(500).json({ success: false, error: "Invalid timestamp" });
+    return res.status(500).json({ success: false, error: "Timestamp is missing or not in format: yyyy-mm-dd HH:mm:ss" });
   }
 
   if (errors.length > 0) {
