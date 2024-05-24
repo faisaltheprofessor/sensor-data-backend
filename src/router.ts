@@ -1,10 +1,12 @@
-import express from "express";
-import { getSensorData, createSensorData } from "./controllers/sensorController";
+import express from "express"
+import { getSensorData, createSensorData, wildCardRoute } from "./controllers/sensorController"
 
-const router = express.Router();
+const router = express.Router()
 
 // Define routes
-router.get("/sensors/data", getSensorData);
-router.post("/sensors/data", createSensorData);
+router.get("/sensors/data", getSensorData)
+router.post("/sensors/data", createSensorData)
 
-export { router };
+// Wildcard to handle other routes
+router.get("*", wildCardRoute)
+export { router }

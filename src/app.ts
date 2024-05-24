@@ -1,23 +1,23 @@
-import express from "express";
-import { router } from "./router";
-import { PORT } from "./config/appConfig";
-import { corsValidator } from "./middlewares/corsValidator";
-import { errorHandler } from "./middlewares/errorHandler";
+import express from "express"
+import { router } from "./router"
+import { PORT } from "./config/appConfig"
+import { corsValidator } from "./middlewares/corsValidator"
+import { errorHandler } from "./middlewares/errorHandler"
 
-const app = express();
+const app = express()
 
 // Middleware setup
 app.use(corsValidator)
-app.use(express.urlencoded({ extended: true }));
-app.use(errorHandler);
+app.use(express.urlencoded({ extended: true }))
+app.use(errorHandler)
 
 // Routes
-app.use("/", router);
+app.use("/", router)
 
 
 // Start the server
 app.listen(PORT, () => {
-    console.log(`\x1b[32mServer is running on port ${PORT}\x1b[0m`);
-});
+    console.log(`\x1b[32mServer is running on port ${PORT}\x1b[0m`)
+})
 
-export default app;
+export default app
