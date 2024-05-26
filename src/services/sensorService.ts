@@ -1,32 +1,41 @@
-const fs = require('fs')
-
+import { readFromFile, writeToFile } from "./fileIOService"
 interface SensorData {
     sensorId: number
     value: number
     type: string
-    timestamp: number
+    timestamp: string
 }
 
 let sensorData: SensorData[] = []
+let dataFilePath = './data.json'
 
-// Load sensor data from file or initialize if file doesn't exist
-fs.readFile("./data.json", "utf8", (err: Error, data: string) => {
-    if (err) {
-        fs.writeFile("./data.json", "[]", (err: any) => {
-            if (err) {
-                console.error("Error creating data.json")
-            } else {
-                console.log("\x1b[32Data.json file created successfully\x1b[0m")
-            }
-        })
-    } else {
-        sensorData = JSON.parse(data)
-        console.log("\x1b[32mExisting sensor data loaded successfully\x1b[0m")
-    }
+// Initial Load
+readFromFile(dataFilePath)
+.then((data) => {
+    sensorData = JSON.parse(data);
+    console.log("\x1b[32mExisting sensor data loaded successfully\x1b[0m");
 })
+.catch(() => {
+    // File doesn't exist, initialize with empty array
+    writeToFile(dataFilePath, "[]")
+        .then(() => {
+            console.log("\x1b[32mData.json file created successfully\x1b[0m");
+        })
+        .catch((error) => {
+            console.error("Error creating data.json:", error);
+        });
+});
+
 
 // Get paginated sensor data with pagination links
 const getPaginatedSensorData = (page: number, limit: number, desc: boolean): Promise<any> => {
+    // Read from file to ensure latest changes (like manual changes or changes to file by other sources) are retrieved
+// TODO: Refactor
+        readFromFile(dataFilePath)
+        .then((data) => {
+            sensorData = JSON.parse(data);
+        })
+    
     return new Promise((resolve, reject) => {
         const startIndex = (page - 1) * limit
         const endIndex = page * limit
@@ -58,27 +67,21 @@ const getPaginatedSensorData = (page: number, limit: number, desc: boolean): Pro
 }
 
 
-// Add new sensor data
-const addSensorData = (sensorId: number, type: string, value: number, timestamp: number): Promise<any> => {
+const addSensorData = (sensorId: number, type: string, value: number, timestamp: string, filePath: string = dataFilePath): Promise<any> => {
     return new Promise((resolve, reject) => {
-        if (sensorData.some((data) => data.sensorId === sensorId)) {
-            reject(`\x1b[32mA record with sensor id ${sensorId} exists\x1b[0m`)
-        } else {
-            const newData = { sensorId, type, value, timestamp }
-            sensorData.push(newData)
-
-            fs.writeFile("./data.json", JSON.stringify(sensorData), (err: string) => {
-                if (err) {
-                    console.error("\x1b[31mError saving data\x1b[0m")
-                    reject("Error saving data")
-                } else {
-                    console.log("\x1b[32mNew sensor data saved successfully:\x1b[0m", newData)
-                    resolve(newData)
-                }
+        const newData = { sensorId, type, value, timestamp };
+        sensorData.push(newData);
+        writeToFile(filePath, JSON.stringify(sensorData))
+            .then(() => {
+                console.log("\x1b[32mNew sensor data saved successfully:\x1b[0m", newData);
+                resolve(newData);
             })
-        }
-    })
-}
+            .catch((error) => {
+                console.error("\x1b[31mError saving data\x1b[0m");
+                reject({ status: 503, data: { success: false, error: "Error saving data" } });
+            });
+    });
+};
 
 export const sensorService = {
     getPaginatedSensorData,
