@@ -1,8 +1,0 @@
-✅ Mon May 27 2024 00:28:10 GMT+0200 (Central European Summer Time): Server started on port 8000
-❌ Mon May 27 2024 00:28:15 GMT+0200 (Central European Summer Time): ["A record with same sensor ID exists"]
-✅ Mon May 27 2024 00:28:30 GMT+0200 (Central European Summer Time): Data saved to file ./data.json successfully
-✅ Mon May 27 2024 00:28:30 GMT+0200 (Central European Summer Time): {"sensorId":1342,"type":"Humidity","value":3,"timestamp":"2024-05-27 00:28:30"}
-❌ Mon May 27 2024 00:28:37 GMT+0200 (Central European Summer Time): ["A record with same sensor ID exists","Value is required and must be a number","Timestamp is required"]
-❌ Mon May 27 2024 00:28:53 GMT+0200 (Central European Summer Time): ["Value is required and must be a number","Timestamp is required"]
-✅ Mon May 27 2024 00:29:23 GMT+0200 (Central European Summer Time): Data saved to file ./data.json successfully
-✅ Mon May 27 2024 00:29:23 GMT+0200 (Central European Summer Time): {"sensorId":62342,"type":"adfa","value":32,"timestamp":"2024-11-11 10:23:11"}
