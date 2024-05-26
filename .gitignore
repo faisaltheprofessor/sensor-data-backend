@@ -2,3 +2,5 @@ node_modules
 DS_Store
 /storage/*
 !/storage/.gitkeep
+data.json
+data.test.json

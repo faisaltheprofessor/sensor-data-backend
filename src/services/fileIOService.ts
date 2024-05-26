@@ -2,18 +2,31 @@ import { logToFile } from "../utils/logger";
 
 const fs = require('fs')
 
+
 const readFromFile = async (filePath: string): Promise<string> => {
     return new Promise((resolve, reject) => {
-        fs.readFile(filePath, "utf8", (err: Error, data: string) => {
+        fs.readFile(filePath, "utf8", (err: NodeJS.ErrnoException, data: string) => {
             if (err) {
-                console.error(`Error reading from file ${filePath}:`, err);
-                reject(`Error reading from file ${filePath}`);
+                if (err.code === 'ENOENT') {
+                    fs.writeFile(filePath, '[]', (err: any) => {
+                        if (err) {
+                            console.error(`Error creating file ${filePath}:`, err);
+                            reject(`Error creating file ${filePath}`);
+                        } else {
+                            resolve('[]');
+                        }
+                    });
+                } else {
+                    console.error(`Error reading from file ${filePath}:`, err);
+                    reject(`Error reading from file ${filePath}`);
+                }
             } else {
                 resolve(data);
             }
         });
     });
 }
+
 
 const writeToFile = async (filePath: string, data: string): Promise<void> => {
     return new Promise((resolve, reject) => {

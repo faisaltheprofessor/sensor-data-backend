@@ -2,7 +2,7 @@ import { readFromFile } from "../services/fileIOService";
 import { sensorService } from "../services/sensorService";
 
 export const generateFakeData = async (limit = 10, start = 1, dataFilePath = './data.test.json'): Promise<void> => {
-    let type = ["TestPressure", "TestHumidity", "TestpH", "TestPressure"];
+    let type = ["Pressure", "Humidity", "pH", "Pressure"];
     let id = start
     for (let i = 0; i < limit; i++) {
         let randomType = type[Math.floor(Math.random() * type.length)];
