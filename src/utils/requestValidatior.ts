@@ -42,7 +42,7 @@ export const validateSensorData = async (
   }
 
   if (errors.length > 0) {
-    logToFile(JSON.stringify(errors))
+    logToFile(JSON.stringify(errors), undefined, false)
     return errors.join(". ");
   }
 
