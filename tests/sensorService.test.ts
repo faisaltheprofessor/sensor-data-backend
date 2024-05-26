@@ -30,13 +30,21 @@ describe("Sensor Service Tests", async () => {
             expect(paginatedData.data.length).toEqual(20);
         })
         
-    });
+
     // Test case for pagination links
-    // it("should have correct pagination links", async () => {
-    //     const paginatedData = await sensorService.getPaginatedSensorData(1, 10, false, dataFilePath);
-    //     expect(paginatedData.links.self).toEqual('/sensors/data?page=1&desc=false');
-    //     expect(paginatedData.links.first).toEqual('/sensors/data?page=1&desc=false');
-    //     expect(paginatedData.links.last).toEqual('/sensors/data?page=3&desc=false');
-    //     expect(paginatedData.links.next).toEqual('/sensors/data?page=2&desc=false');
-    //     expect(paginatedData.links.prev).toBeNull();
-    // });
+    it("should have correct pagination links", async () => {
+        const paginatedData = await sensorService.getPaginatedSensorData(1, 10, false, dataFilePath);
+        expect(paginatedData.links.self).toEqual('/sensors/data?page=1&desc=false');
+        expect(paginatedData.links.first).toEqual('/sensors/data?page=1&desc=false');
+        expect(paginatedData.links.last).toEqual('/sensors/data?page=4&desc=false');
+        expect(paginatedData.links.next).toEqual('/sensors/data?page=2&desc=false');
+        expect(paginatedData.links.prev).toBeNull();
+
+        const morePaginatedData = await sensorService.getPaginatedSensorData(2, 5, true, dataFilePath);
+        expect(morePaginatedData.links.self).toEqual('/sensors/data?page=2&desc=true');
+        expect(morePaginatedData.links.first).toEqual('/sensors/data?page=1&desc=true');
+        expect(morePaginatedData.links.last).toEqual('/sensors/data?page=7&desc=true');
+        expect(morePaginatedData.links.next).toEqual('/sensors/data?page=3&desc=true');
+        expect(morePaginatedData.links.prev).toEqual('/sensors/data?page=1&desc=true');
+    });
+});

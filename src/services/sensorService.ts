@@ -1,3 +1,4 @@
+import { logToFile } from "../utils/logger";
 import { readFromFile, writeToFile } from "./fileIOService";
 
 interface SensorData {
@@ -51,7 +52,7 @@ const addSensorData = (sensorId: number, type: string, value: number, timestamp:
             sensorData.push(newData);
             return writeToFile(filePath, JSON.stringify(sensorData))
                 .then(() => {
-                    console.log("\x1b[32mNew sensor data saved successfully:\x1b[0m", newData);
+                    logToFile(JSON.stringify(newData));
                     return newData;
                 })
                 .catch((error) => {

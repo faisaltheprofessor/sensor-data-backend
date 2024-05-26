@@ -1,0 +1,805 @@
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":1,"type":"pressure","value":30,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":2,"type":"TestPressure","value":35,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":3,"type":"TestpH","value":95,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":4,"type":"TestPressure","value":90,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":5,"type":"TestHumidity","value":4,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":6,"type":"TestHumidity","value":69,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":7,"type":"TestpH","value":86,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":8,"type":"TestPressure","value":54,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":9,"type":"TestPressure","value":69,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":10,"type":"TestPressure","value":59,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":11,"type":"TestHumidity","value":52,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":12,"type":"TestpH","value":93,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":13,"type":"TestPressure","value":19,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":14,"type":"TestpH","value":86,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":15,"type":"TestpH","value":73,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":16,"type":"TestPressure","value":0,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":17,"type":"TestPressure","value":39,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":18,"type":"TestPressure","value":50,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":19,"type":"TestpH","value":42,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":20,"type":"TestPressure","value":95,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":21,"type":"TestHumidity","value":84,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":22,"type":"TestpH","value":75,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":23,"type":"TestPressure","value":71,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":24,"type":"TestPressure","value":62,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":25,"type":"TestpH","value":18,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":26,"type":"TestPressure","value":32,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":27,"type":"TestHumidity","value":64,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":28,"type":"TestPressure","value":25,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":29,"type":"TestpH","value":17,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":30,"type":"TestPressure","value":28,"timestamp":"2024-05-25 13:30:45"}
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+success Mon May 27 2024 00:13:18 GMT+0200 (Central European Summer Time): {"sensorId":31,"type":"TestPressure","value":41,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":2,"type":"TestHumidity","value":74,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":3,"type":"TestpH","value":44,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":4,"type":"TestPressure","value":38,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":5,"type":"TestHumidity","value":66,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":6,"type":"TestpH","value":25,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":7,"type":"TestHumidity","value":12,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":8,"type":"TestPressure","value":72,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":9,"type":"TestPressure","value":64,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":10,"type":"TestPressure","value":19,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":11,"type":"TestPressure","value":42,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":12,"type":"TestHumidity","value":70,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":13,"type":"TestPressure","value":72,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":14,"type":"TestpH","value":91,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":15,"type":"TestPressure","value":16,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":16,"type":"TestHumidity","value":58,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":17,"type":"TestPressure","value":27,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":18,"type":"TestPressure","value":30,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":19,"type":"TestPressure","value":86,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":20,"type":"TestpH","value":67,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":21,"type":"TestpH","value":70,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":22,"type":"TestPressure","value":22,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":23,"type":"TestPressure","value":50,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":24,"type":"TestPressure","value":33,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":25,"type":"TestHumidity","value":53,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":26,"type":"TestPressure","value":51,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":27,"type":"TestpH","value":20,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":28,"type":"TestpH","value":27,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":29,"type":"TestpH","value":18,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":30,"type":"TestpH","value":74,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:14:01 GMT+0200 (Central European Summer Time): {"sensorId":31,"type":"TestPressure","value":96,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:07 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:15:07 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:07 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:15:07 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:15:07 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":1,"type":"pressure","value":30,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":2,"type":"TestPressure","value":37,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":3,"type":"TestHumidity","value":14,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":4,"type":"TestPressure","value":69,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":5,"type":"TestPressure","value":33,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":6,"type":"TestPressure","value":15,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":7,"type":"TestPressure","value":14,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":8,"type":"TestPressure","value":5,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":9,"type":"TestPressure","value":16,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":10,"type":"TestHumidity","value":83,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":11,"type":"TestPressure","value":62,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":12,"type":"TestPressure","value":43,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":13,"type":"TestHumidity","value":37,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":14,"type":"TestPressure","value":88,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":15,"type":"TestpH","value":96,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":16,"type":"TestPressure","value":94,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":17,"type":"TestPressure","value":71,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":18,"type":"TestpH","value":90,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":19,"type":"TestPressure","value":7,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":20,"type":"TestPressure","value":37,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":21,"type":"TestHumidity","value":94,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":22,"type":"TestPressure","value":54,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":23,"type":"TestPressure","value":24,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":24,"type":"TestPressure","value":72,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":25,"type":"TestHumidity","value":72,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":26,"type":"TestPressure","value":63,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":27,"type":"TestPressure","value":46,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":28,"type":"TestpH","value":35,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":29,"type":"TestPressure","value":33,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":30,"type":"TestpH","value":4,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:15:19 GMT+0200 (Central European Summer Time): {"sensorId":31,"type":"TestPressure","value":36,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":1,"type":"pressure","value":30,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":2,"type":"TestHumidity","value":19,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":3,"type":"TestPressure","value":49,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":4,"type":"TestHumidity","value":12,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":5,"type":"TestpH","value":82,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":6,"type":"TestPressure","value":46,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":7,"type":"TestpH","value":45,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":8,"type":"TestPressure","value":2,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":9,"type":"TestHumidity","value":82,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":10,"type":"TestPressure","value":45,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":11,"type":"TestPressure","value":33,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":12,"type":"TestHumidity","value":43,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":13,"type":"TestPressure","value":47,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":14,"type":"TestPressure","value":69,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":15,"type":"TestPressure","value":42,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":16,"type":"TestPressure","value":0,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":17,"type":"TestHumidity","value":97,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":18,"type":"TestPressure","value":47,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":19,"type":"TestpH","value":20,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":20,"type":"TestpH","value":41,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":21,"type":"TestPressure","value":21,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":22,"type":"TestPressure","value":67,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":23,"type":"TestHumidity","value":88,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":24,"type":"TestpH","value":39,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":25,"type":"TestPressure","value":96,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":26,"type":"TestpH","value":72,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":27,"type":"TestpH","value":59,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":28,"type":"TestHumidity","value":10,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":29,"type":"TestHumidity","value":89,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":30,"type":"TestHumidity","value":52,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:16:32 GMT+0200 (Central European Summer Time): {"sensorId":31,"type":"TestPressure","value":56,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":2,"type":"TestHumidity","value":32,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":3,"type":"TestHumidity","value":99,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":4,"type":"TestPressure","value":29,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":5,"type":"TestPressure","value":20,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":6,"type":"TestpH","value":68,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":7,"type":"TestPressure","value":37,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":8,"type":"TestPressure","value":21,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":9,"type":"TestPressure","value":44,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":10,"type":"TestpH","value":59,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":11,"type":"TestPressure","value":15,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":12,"type":"TestpH","value":60,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":13,"type":"TestPressure","value":68,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":14,"type":"TestpH","value":33,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":15,"type":"TestPressure","value":85,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":16,"type":"TestpH","value":83,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":17,"type":"TestPressure","value":32,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":18,"type":"TestHumidity","value":6,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":19,"type":"TestpH","value":49,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":20,"type":"TestpH","value":8,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":21,"type":"TestPressure","value":91,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:22 GMT+0200 (Central European Summer Time): {"sensorId":22,"type":"TestPressure","value":29,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): {"sensorId":23,"type":"TestpH","value":40,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): {"sensorId":24,"type":"TestpH","value":49,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): {"sensorId":25,"type":"TestpH","value":34,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): {"sensorId":26,"type":"TestPressure","value":53,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): {"sensorId":27,"type":"TestpH","value":43,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): {"sensorId":28,"type":"TestPressure","value":45,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): {"sensorId":29,"type":"TestpH","value":22,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): {"sensorId":30,"type":"TestpH","value":39,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:23 GMT+0200 (Central European Summer Time): {"sensorId":31,"type":"TestPressure","value":36,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":1,"type":"pressure","value":30,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":2,"type":"TestPressure","value":4,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":3,"type":"TestpH","value":53,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":4,"type":"TestHumidity","value":14,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":5,"type":"TestPressure","value":12,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":6,"type":"TestHumidity","value":50,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":7,"type":"TestPressure","value":14,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":8,"type":"TestHumidity","value":64,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":9,"type":"TestpH","value":89,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":10,"type":"TestHumidity","value":33,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":11,"type":"TestPressure","value":4,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":12,"type":"TestpH","value":67,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":13,"type":"TestPressure","value":92,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":14,"type":"TestPressure","value":9,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":15,"type":"TestHumidity","value":14,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":16,"type":"TestPressure","value":56,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":17,"type":"TestpH","value":52,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":18,"type":"TestPressure","value":92,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":19,"type":"TestpH","value":15,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":20,"type":"TestpH","value":29,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":21,"type":"TestPressure","value":33,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":22,"type":"TestHumidity","value":42,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":23,"type":"TestHumidity","value":33,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":24,"type":"TestpH","value":60,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":25,"type":"TestpH","value":79,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":26,"type":"TestPressure","value":64,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":27,"type":"TestPressure","value":71,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":28,"type":"TestpH","value":57,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":29,"type":"TestPressure","value":25,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":30,"type":"TestPressure","value":46,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:25 GMT+0200 (Central European Summer Time): {"sensorId":31,"type":"TestPressure","value":42,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":1,"type":"pressure","value":30,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":2,"type":"TestPressure","value":64,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":3,"type":"TestHumidity","value":14,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":4,"type":"TestpH","value":86,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":5,"type":"TestpH","value":19,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":6,"type":"TestPressure","value":91,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":7,"type":"TestHumidity","value":33,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":8,"type":"TestPressure","value":39,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":9,"type":"TestpH","value":51,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":10,"type":"TestHumidity","value":11,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":11,"type":"TestPressure","value":28,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":12,"type":"TestpH","value":94,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":13,"type":"TestPressure","value":29,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":14,"type":"TestHumidity","value":14,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":15,"type":"TestPressure","value":41,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":16,"type":"TestPressure","value":38,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":17,"type":"TestPressure","value":98,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":18,"type":"TestPressure","value":9,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":19,"type":"TestpH","value":27,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":20,"type":"TestPressure","value":74,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":21,"type":"TestPressure","value":71,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":22,"type":"TestPressure","value":85,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":23,"type":"TestPressure","value":92,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":24,"type":"TestPressure","value":60,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":25,"type":"TestHumidity","value":5,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":26,"type":"TestPressure","value":74,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":27,"type":"TestPressure","value":5,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":28,"type":"TestHumidity","value":21,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":29,"type":"TestpH","value":14,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":30,"type":"TestpH","value":95,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:38 GMT+0200 (Central European Summer Time): {"sensorId":31,"type":"TestPressure","value":55,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":1,"type":"pressure","value":30,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":2,"type":"TestPressure","value":96,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":3,"type":"TestHumidity","value":78,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":4,"type":"TestpH","value":22,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":5,"type":"TestPressure","value":34,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":6,"type":"TestHumidity","value":73,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":7,"type":"TestPressure","value":47,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":8,"type":"TestpH","value":17,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":9,"type":"TestPressure","value":94,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":10,"type":"TestpH","value":20,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":11,"type":"TestPressure","value":38,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":12,"type":"TestHumidity","value":76,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":13,"type":"TestPressure","value":92,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":14,"type":"TestPressure","value":31,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":15,"type":"TestHumidity","value":1,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":16,"type":"TestPressure","value":69,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":17,"type":"TestPressure","value":26,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":18,"type":"TestPressure","value":95,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":19,"type":"TestHumidity","value":84,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":20,"type":"TestPressure","value":43,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":21,"type":"TestHumidity","value":27,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":22,"type":"TestPressure","value":32,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":23,"type":"TestPressure","value":95,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":24,"type":"TestHumidity","value":43,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":25,"type":"TestpH","value":96,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":26,"type":"TestPressure","value":7,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":27,"type":"TestPressure","value":97,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":28,"type":"TestPressure","value":70,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":29,"type":"TestPressure","value":69,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":30,"type":"TestpH","value":70,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:17:50 GMT+0200 (Central European Summer Time): {"sensorId":31,"type":"TestPressure","value":58,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":1,"type":"pressure","value":30,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":2,"type":"TestHumidity","value":38,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":3,"type":"TestHumidity","value":2,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":4,"type":"TestHumidity","value":16,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":5,"type":"TestHumidity","value":88,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":6,"type":"TestHumidity","value":81,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":7,"type":"TestHumidity","value":57,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":8,"type":"TestPressure","value":29,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":9,"type":"TestPressure","value":12,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":10,"type":"TestPressure","value":84,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":11,"type":"TestPressure","value":78,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":12,"type":"TestPressure","value":77,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":13,"type":"TestpH","value":75,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":14,"type":"TestpH","value":61,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":15,"type":"TestPressure","value":74,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":16,"type":"TestHumidity","value":69,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":17,"type":"TestpH","value":99,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":18,"type":"TestPressure","value":63,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":19,"type":"TestHumidity","value":15,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":20,"type":"TestPressure","value":88,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":21,"type":"TestpH","value":26,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":22,"type":"TestHumidity","value":65,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":23,"type":"TestHumidity","value":63,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":24,"type":"TestpH","value":34,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":25,"type":"TestPressure","value":67,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":26,"type":"TestpH","value":73,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":27,"type":"TestpH","value":61,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":28,"type":"TestHumidity","value":95,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":29,"type":"TestPressure","value":76,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":30,"type":"TestPressure","value":71,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:18:38 GMT+0200 (Central European Summer Time): {"sensorId":31,"type":"TestpH","value":70,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":1,"type":"pressure","value":30,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":2,"type":"TestHumidity","value":55,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":3,"type":"TestPressure","value":39,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":4,"type":"TestHumidity","value":22,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":5,"type":"TestPressure","value":45,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":6,"type":"TestHumidity","value":76,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":7,"type":"TestPressure","value":51,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":8,"type":"TestPressure","value":95,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":9,"type":"TestHumidity","value":17,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":10,"type":"TestHumidity","value":42,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":11,"type":"TestHumidity","value":47,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":12,"type":"TestpH","value":2,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":13,"type":"TestPressure","value":50,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":14,"type":"TestPressure","value":0,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":15,"type":"TestpH","value":21,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":16,"type":"TestHumidity","value":56,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":17,"type":"TestHumidity","value":85,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":18,"type":"TestPressure","value":25,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":19,"type":"TestHumidity","value":43,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":20,"type":"TestPressure","value":5,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":21,"type":"TestPressure","value":13,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":22,"type":"TestpH","value":54,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":23,"type":"TestHumidity","value":61,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":24,"type":"TestPressure","value":43,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":25,"type":"TestpH","value":29,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":26,"type":"TestpH","value":80,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":27,"type":"TestPressure","value":54,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":28,"type":"TestPressure","value":9,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":29,"type":"TestPressure","value":13,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":30,"type":"TestPressure","value":69,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:20:54 GMT+0200 (Central European Summer Time): {"sensorId":31,"type":"TestPressure","value":75,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":1,"type":"pressure","value":30,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":2,"type":"TestPressure","value":8,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":3,"type":"TestpH","value":14,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":4,"type":"TestPressure","value":43,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":5,"type":"TestpH","value":39,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":6,"type":"TestpH","value":1,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":7,"type":"TestHumidity","value":83,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":8,"type":"TestpH","value":24,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":9,"type":"TestPressure","value":73,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":10,"type":"TestPressure","value":79,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":11,"type":"TestPressure","value":96,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":12,"type":"TestPressure","value":81,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":13,"type":"TestPressure","value":21,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":14,"type":"TestHumidity","value":84,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":15,"type":"TestHumidity","value":21,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":16,"type":"TestHumidity","value":43,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":17,"type":"TestHumidity","value":37,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":18,"type":"TestpH","value":18,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":19,"type":"TestPressure","value":89,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":20,"type":"TestpH","value":48,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":21,"type":"TestpH","value":97,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":22,"type":"TestPressure","value":12,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":23,"type":"TestpH","value":7,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":24,"type":"TestPressure","value":73,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":25,"type":"TestpH","value":87,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":26,"type":"TestHumidity","value":20,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":27,"type":"TestHumidity","value":72,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":28,"type":"TestPressure","value":12,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":29,"type":"TestPressure","value":17,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":30,"type":"TestPressure","value":24,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:45 GMT+0200 (Central European Summer Time): {"sensorId":31,"type":"TestPressure","value":94,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): File ./data.test.json truncated successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":1,"type":"pressure","value":30,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":2,"type":"TestPressure","value":34,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":3,"type":"TestPressure","value":43,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":4,"type":"TestPressure","value":75,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":5,"type":"TestPressure","value":53,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":6,"type":"TestHumidity","value":28,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":7,"type":"TestpH","value":12,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":8,"type":"TestPressure","value":89,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":9,"type":"TestpH","value":77,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":10,"type":"TestpH","value":19,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":11,"type":"TestpH","value":55,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":12,"type":"TestPressure","value":47,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":13,"type":"TestHumidity","value":65,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":14,"type":"TestpH","value":44,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":15,"type":"TestpH","value":35,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":16,"type":"TestHumidity","value":44,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":17,"type":"TestHumidity","value":17,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":18,"type":"TestpH","value":47,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":19,"type":"TestHumidity","value":81,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":20,"type":"TestPressure","value":10,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":21,"type":"TestpH","value":29,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":22,"type":"TestpH","value":62,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":23,"type":"TestPressure","value":11,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":24,"type":"TestPressure","value":9,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":25,"type":"TestpH","value":59,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":26,"type":"TestHumidity","value":19,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":27,"type":"TestpH","value":37,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":28,"type":"TestHumidity","value":6,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":29,"type":"TestPressure","value":14,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":30,"type":"TestHumidity","value":17,"timestamp":"2024-05-25 13:30:45"}
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): Data saved to file ./data.test.json successfully
+✅ Mon May 27 2024 00:21:53 GMT+0200 (Central European Summer Time): {"sensorId":31,"type":"TestHumidity","value":51,"timestamp":"2024-05-25 13:30:45"}

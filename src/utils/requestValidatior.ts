@@ -1,5 +1,6 @@
 import { readFromFile, writeToFile } from "../services/fileIOService";
 import { sensorService } from "../services/sensorService";
+import { logToFile } from "./logger";
 
 export const validateSensorData = async (
   sensorId: number | string,
@@ -41,6 +42,7 @@ export const validateSensorData = async (
   }
 
   if (errors.length > 0) {
+    logToFile(JSON.stringify(errors))
     return errors.join(". ");
   }
 

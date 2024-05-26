@@ -1,3 +1,5 @@
+import { logToFile } from "../utils/logger";
+
 const fs = require('fs')
 
 const readFromFile = async (filePath: string): Promise<string> => {
@@ -17,10 +19,10 @@ const writeToFile = async (filePath: string, data: string): Promise<void> => {
     return new Promise((resolve, reject) => {
         fs.writeFile(filePath, data, (err: Error) => {
             if (err) {
-                console.error(`Error writing to file ${filePath}:`, err);
+                logToFile(`Error writing to file ${filePath}: ${err}`);
                 reject(`Error writing to file ${filePath}`);
             } else {
-                console.log(`Data saved to file ${filePath} successfully`);
+                logToFile(`Data saved to file ${filePath} successfully`);
                 resolve();
             }
         });
@@ -35,12 +37,11 @@ const truncateFile = async (filePath: string): Promise<void> => {
                 console.error(`Error truncating file ${filePath}:`, err);
                 reject(`Error truncating file ${filePath}`);
             } else {
-                console.log(`File ${filePath} truncated successfully`);
+                logToFile(`File ${filePath} truncated successfully`);
                 resolve();
             }
         });
     });
 }
-
 
 export { readFromFile, writeToFile, truncateFile};
