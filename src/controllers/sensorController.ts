@@ -5,7 +5,6 @@ import { validateSensorData } from "../utils/requestValidatior"
 // GET /sensors/data
 export const getSensorData = (req: Request, res: Response) => {
   const { page = "1", limit = "10", desc = false } = req.query
-  
   sensorService.getPaginatedSensorData(Number(page), Number(limit), desc === "true")
     .then((data) => {
       res.json(data)

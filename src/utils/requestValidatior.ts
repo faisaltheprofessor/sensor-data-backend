@@ -1,4 +1,5 @@
-import { readFromFile } from "../services/fileIOService";
+import { readFromFile, writeToFile } from "../services/fileIOService";
+import { sensorService } from "../services/sensorService";
 
 export const validateSensorData = async (
   sensorId: number | string,
@@ -45,3 +46,4 @@ export const validateSensorData = async (
 
   return null;
 };
+

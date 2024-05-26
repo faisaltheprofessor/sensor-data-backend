@@ -27,4 +27,20 @@ const writeToFile = async (filePath: string, data: string): Promise<void> => {
     });
 }
 
-export { readFromFile, writeToFile };
+
+const truncateFile = async (filePath: string): Promise<void> => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile(filePath, "[]", (err: Error) => {
+            if (err) {
+                console.error(`Error truncating file ${filePath}:`, err);
+                reject(`Error truncating file ${filePath}`);
+            } else {
+                console.log(`File ${filePath} truncated successfully`);
+                resolve();
+            }
+        });
+    });
+}
+
+
+export { readFromFile, writeToFile, truncateFile};

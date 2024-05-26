@@ -3,90 +3,108 @@
         "sensorId": 1,
         "type": "Humidity",
         "value": 3,
-        "timestamp": "2024-05-26 14:03:31"
-    },
-    {
-        "sensorId": 2,
-        "type": "Humidity",
-        "value": 4,
-        "timestamp": "2024-05-26 14:03:39"
-    },
-    {
-        "sensorId": 3,
-        "type": "Humidity",
-        "value": 4,
-        "timestamp": "2024-05-26 14:03:50"
-    },
-    {
-        "sensorId": 4,
-        "type": "Humidity",
-        "value": 4,
-        "timestamp": "2024-05-26 14:03:54"
-    },
-    {
-        "sensorId": 5,
-        "type": "Humidity",
-        "value": 5,
-        "timestamp": "2024-05-26 14:03:58"
-    },
-    {
-        "sensorId": 6,
-        "type": "pH",
-        "value": 5,
-        "timestamp": "2024-05-26 14:04:21"
-    },
-    {
-        "sensorId": 7,
-        "type": "pH",
-        "value": 4,
-        "timestamp": "2024-05-26 14:04:30"
-    },
-    {
-        "sensorId": 8,
-        "type": "Temprature",
-        "value": 9,
-        "timestamp": "2024-05-26 14:04:36"
-    },
-    {
-        "sensorId": 9,
-        "type": "Humidity",
-        "value": 6,
-        "timestamp": "2024-05-26 14:04:45"
-    },
-    {
-        "sensorId": 10,
-        "type": "Humidity",
-        "value": 6,
-        "timestamp": "2024-05-26 14:04:51"
-    },
-    {
-        "sensorId": 11,
-        "type": "Humidity",
-        "value": 3,
-        "timestamp": "2024-05-26 14:04:58"
+        "timestamp": "2024-05-26 23:29:07"
     },
     {
         "sensorId": 12,
         "type": "Humidity",
         "value": 3,
-        "timestamp": "2024-05-26 14:04:58"
+        "timestamp": "2024-05-26 23:29:14"
     },
     {
-        "sensorId": 13,
+        "sensorId": 1,
         "type": "Humidity",
         "value": 3,
-        "timestamp": "2024-05-26 14:04:58"
+        "timestamp": "2024-05-26 23:29:07"
     },
     {
-        "sensorId": 14,
+        "sensorId": 12,
         "type": "Humidity",
         "value": 3,
-        "timestamp": "2024-05-26 14:04:58"
+        "timestamp": "2024-05-26 23:29:14"
     },
     {
-        "sensorId": 15,
+        "sensorId": 1,
         "type": "Humidity",
         "value": 3,
-        "timestamp": "2024-05-26 14:04:58"
+        "timestamp": "2024-05-26 23:29:07"
+    },
+    {
+        "sensorId": 12,
+        "type": "Humidity",
+        "value": 3,
+        "timestamp": "2024-05-26 23:29:14"
+    },
+    {
+        "sensorId": 1,
+        "type": "Humidity",
+        "value": 3,
+        "timestamp": "2024-05-26 23:29:07"
+    },
+    {
+        "sensorId": 12,
+        "type": "Humidity",
+        "value": 3,
+        "timestamp": "2024-05-26 23:29:14"
+    },
+    {
+        "sensorId": 1,
+        "type": "Humidity",
+        "value": 3,
+        "timestamp": "2024-05-26 23:29:07"
+    },
+    {
+        "sensorId": 12,
+        "type": "Humidity",
+        "value": 3,
+        "timestamp": "2024-05-26 23:29:14"
+    },
+    {
+        "sensorId": 1,
+        "type": "Humidity",
+        "value": 3,
+        "timestamp": "2024-05-26 23:29:07"
+    },
+    {
+        "sensorId": 12,
+        "type": "Humidity",
+        "value": 3,
+        "timestamp": "2024-05-26 23:29:14"
+    },
+    {
+        "sensorId": 1,
+        "type": "Humidity",
+        "value": 3,
+        "timestamp": "2024-05-26 23:29:07"
+    },
+    {
+        "sensorId": 12,
+        "type": "Humidity",
+        "value": 3,
+        "timestamp": "2024-05-26 23:29:14"
+    },
+    {
+        "sensorId": 1,
+        "type": "Humidity",
+        "value": 3,
+        "timestamp": "2024-05-26 23:29:07"
+    },
+    {
+        "sensorId": 12,
+        "type": "Humidity",
+        "value": 3,
+        "timestamp": "2024-05-26 23:29:14"
+    },
+    {
+        "sensorId": 1,
+        "type": "Humidity",
+        "value": 3,
+        "timestamp": "2024-05-26 23:29:07"
+    },
+    {
+        "sensorId": 12,
+        "type": "Humidity",
+        "value": 3,
+        "timestamp": "2024-05-26 23:29:14"
     }
 ]

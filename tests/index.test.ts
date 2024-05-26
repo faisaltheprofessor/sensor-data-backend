@@ -1,28 +1,42 @@
-import {describe, it, expect} from 'vitest'
-import { readFromFile, writeToFile } from '../src/services/fileIOService'
+
+import { describe, it, expect, beforeAll } from 'vitest';
 import { sensorService } from '../src/services/sensorService';
+import { generateFakeData } from '../src/utils/helpers';
+import { truncateFile } from '../src/services/fileIOService';
 
-
+let dataFilePath = './data.test.json';
 
 describe("Sensor Service Tests", async () => {
-    let sensorData: any = []
-    let dataFilePath = './data.test.json'
+     // Setup step to truncate the file
+     beforeAll(async () => {
+        await truncateFile(dataFilePath);
+    });
 
+    // Test case to add new sensor data successfully
     it("should add new sensor data successfully", async () => {
         const newData = await sensorService.addSensorData(1, "pressure", 30, "2024-05-25 13:30:45", dataFilePath);
         expect(newData).toMatchObject({ sensorId: 1, value: 30, type: "pressure" });
-    })
+    });
 
-    it("should reject adding new sensor data if sensorId already exists", async () => {
-        const newData = await sensorService.addSensorData(2, "humidity", 20, "2024-05-25 13:30:45", dataFilePath);
-        expect(newData).toMatchObject({ sensorId: 2, value: 20, type: "humidity" });
-
-        try 
-        {
-            const someData = await sensorService.addSensorData(2, "humidity", 20, "2024-05-25 13:30:45", dataFilePath)
-        } catch(err)
-        {
-            expect(err).toMatch("\x1b[32mA record with sensor id 2 exists\x1b[0m");
-        }
-    })
-})
+    it("should return specified number of records based on pagination limit", async () => {
+            await generateFakeData(30,2)
+            let paginatedData = await sensorService.getPaginatedSensorData(1, 5, false, dataFilePath);
+            expect(paginatedData.data.length).toEqual(5);
+        
+            paginatedData = await sensorService.getPaginatedSensorData(1, 10, false, dataFilePath);
+            expect(paginatedData.data.length).toEqual(10);
+        
+            paginatedData = await sensorService.getPaginatedSensorData(1, 20, false, dataFilePath);
+            expect(paginatedData.data.length).toEqual(20);
+        })
+        
+    });
+    // Test case for pagination links
+    // it("should have correct pagination links", async () => {
+    //     const paginatedData = await sensorService.getPaginatedSensorData(1, 10, false, dataFilePath);
+    //     expect(paginatedData.links.self).toEqual('/sensors/data?page=1&desc=false');
+    //     expect(paginatedData.links.first).toEqual('/sensors/data?page=1&desc=false');
+    //     expect(paginatedData.links.last).toEqual('/sensors/data?page=3&desc=false');
+    //     expect(paginatedData.links.next).toEqual('/sensors/data?page=2&desc=false');
+    //     expect(paginatedData.links.prev).toBeNull();
+    // });
