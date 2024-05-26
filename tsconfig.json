@@ -9,6 +9,6 @@
     "strict": true,
     "skipLibCheck": true,
   },
-  "include": ["**/*.ts"],
+  "include": ["**/*.ts", "vitest.config.mts"],
   "exclude": ["node_modules"]
 }
