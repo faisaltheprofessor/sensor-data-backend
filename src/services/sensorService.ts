@@ -10,7 +10,15 @@ interface SensorData {
 
 let sensorData: SensorData[] = []
 
-// Get paginated sensor data with pagination links
+/**
+ * Retrieves paginated sensor data from a file db.
+ * 
+ * @param {number} page - The page number for the pagination.
+ * @param {number} limit - The limit of sensor data to be displayed on each page.
+ * @param {boolean} desc - A flag indicating whether data should be sorted in descending order.
+ * @param {string} filePath - The path to the file containing sensor data (default: './data.json').
+ * @returns {Promise<any>} - A Promise that resolves with paginated sensor data and pagination information.
+ */
 const getPaginatedSensorData = (page: number, limit: number, desc: boolean, filePath: string = './data.json'): Promise<any> => {
     return readFromFile(filePath)
         .then((data) => {
@@ -44,6 +52,16 @@ const getPaginatedSensorData = (page: number, limit: number, desc: boolean, file
         })
 }
 
+/**
+ * Stores sensor data in a file asynchronously.
+ * 
+ * @param {number} sensorId - The ID of the sensor.
+ * @param {string} type - The type of sensor data.
+ * @param {number} value - The value of the sensor data.
+ * @param {string} timestamp - The timestamp of the sensor data.
+ * @param {string} filePath - The path to the file where sensor data will be stored (default: './data.json').
+ * @returns {Promise<any>} - A Promise that resolves with the newly stored sensor data.
+ */
 const storeSensorData = (sensorId: number, type: string, value: number, timestamp: string, filePath: string = './data.json'): Promise<any> => {
     return readFromFile(filePath)
         .then((data) => {
@@ -63,7 +81,6 @@ const storeSensorData = (sensorId: number, type: string, value: number, timestam
                 })
         })
 }
-
 
 export const sensorService = {
     getPaginatedSensorData,

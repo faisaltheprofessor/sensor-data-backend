@@ -1,5 +1,5 @@
 import { afterAll, beforeAll, describe, expect, expectTypeOf, test, vi } from 'vitest'
-import { truncateFile } from '../src/services/fileIOService'
+import { truncateFile, deleteFileSync } from '../src/services/fileIOService'
 
 describe('API endpoint tests', () => {
   afterAll(async () => {
@@ -11,6 +11,7 @@ describe('API endpoint tests', () => {
 
   describe('GET /sensors/data', () => {
     beforeAll(async () => {
+      deleteFileSync('./data.test.json')
       vi.resetModules()
       await truncateFile('./data.test.json')
       response = await fetch('http://localhost:8000/sensors/data')

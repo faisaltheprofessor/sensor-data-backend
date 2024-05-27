@@ -1,4 +1,4 @@
-import { afterAll, beforeAll, describe, expect, it, vi } from "vitest"
+import { afterAll, describe, expect, it, vi } from "vitest"
 import { deleteFile, readFromFile, truncateFile, writeToFile } from "../src/services/fileIOService"
 
 describe("File I/O Service Tests", async () => {

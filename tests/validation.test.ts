@@ -1,11 +1,12 @@
 import { afterAll, describe, expect, it, vi } from "vitest"
 import { validateSensorData } from "../src/utils/requestValidatior"
-import { truncateFile } from "../src/services/fileIOService"
+import {  deleteFileSync, truncateFile } from "../src/services/fileIOService"
+import { afterEach } from "node:test"
 
 describe("Validation Tests", () => {
   let dataFilePath = "./data.test.json"
 
-  afterAll(async () => {
+  afterAll(() => {
     vi.resetModules()
   })
 

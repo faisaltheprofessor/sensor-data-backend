@@ -2,7 +2,12 @@ import { logToFile } from "../utils/logger"
 
 const fs = require('fs')
 
-
+/**
+ * Reads data from a file asynchronously.
+ * 
+ * @param {string} filePath - The path to the file from which data will be read.
+ * @returns {Promise<string>} - A Promise that resolves with the data read from the file as a string.
+ */
 const readFromFile = async (filePath: string): Promise<string> => {
     return new Promise((resolve, reject) => {
         fs.readFile(filePath, "utf8", (err: NodeJS.ErrnoException, data: string) => {
@@ -36,7 +41,13 @@ const readFromFile = async (filePath: string): Promise<string> => {
     })
 }
 
-
+/**
+ * Writes data to a file asynchronously.
+ * 
+ * @param {string} filePath - The path to the file where data will be written.
+ * @param {string} data - The data to be written to the file.
+ * @returns {Promise<void>} - A Promise that resolves when the data is successfully written to the file.
+ */
 const writeToFile = async (filePath: string, data: string): Promise<void> => {
     return new Promise((resolve, reject) => {
         fs.writeFile(filePath, data, (err: Error) => {
@@ -51,7 +62,12 @@ const writeToFile = async (filePath: string, data: string): Promise<void> => {
     })
 }
 
-
+/**
+ * Truncates a file by overwriting its content with an empty array representation.
+ * 
+ * @param {string} filePath - The path to the file to be truncated.
+ * @returns {Promise<void>} - A Promise that resolves when the file is successfully truncated.
+ */
 const truncateFile = async (filePath: string): Promise<void> => {
     return new Promise((resolve, reject) => {
         fs.writeFile(filePath, '[]', (err: Error) => {
@@ -66,6 +82,12 @@ const truncateFile = async (filePath: string): Promise<void> => {
     })
 }
 
+/**
+ * Deletes a file.
+ * 
+ * @param {string} filePath - The path to the file to be deleted.
+ * @returns {Promise<void>} - A Promise that resolves when the file is successfully deleted.
+ */
 const deleteFile = async (filePath: string): Promise<void> => {
     return new Promise((resolve, reject) => {
         fs.unlink(filePath, (err: Error) => {
@@ -80,5 +102,19 @@ const deleteFile = async (filePath: string): Promise<void> => {
     })
 }
 
+/**
+ * Deletes a file synchronously.
+ * 
+ * @param {string} filePath - The path to the file to be deleted.
+ * @returns {void} - No return value. Deletes the file synchronously.
+ */
+export const deleteFileSync = (filePath: string) => {
+    try {
+        fs.unlinkSync(filePath);
+        console.log(`File ${filePath} deleted successfully`);
+    } catch (err) {
+        console.error(`Error deleting file ${filePath}:`, err);
+    }
+}
 
 export { readFromFile, writeToFile, truncateFile, deleteFile }
