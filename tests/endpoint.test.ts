@@ -1,43 +1,49 @@
-import { afterAll, beforeAll, beforeEach, describe, expect, expectTypeOf, test, vi } from 'vitest';
-import { deleteFile, truncateFile } from '../src/services/fileIOService';
-import { before } from 'node:test';
+import { afterAll, beforeAll, describe, expect, expectTypeOf, test, vi } from 'vitest'
+import { truncateFile } from '../src/services/fileIOService'
 
 describe('API endpoint tests', () => {
-    afterAll( async() => {
-        vi.resetModules()
+  afterAll(async () => {
+    vi.resetModules()
+  })
+
+  let response: Response
+  let body: Array<{ [key: string] : any}>
+
+  describe('GET /sensors/data', () => {
+    beforeAll(async () => {
+      vi.resetModules()
+      await truncateFile('./data.test.json')
+      response = await fetch('http://localhost:8000/sensors/data')
+      body = await response.json()
     })
- 
-    let response: Response;
-    let body: Array<{ [key: string]: unknown }>;
-  
-    describe('GET /sensors/data', () => {
-      beforeAll(async () => {
-        vi.resetModules()
-        await truncateFile('./data.test.json');
-        response = await fetch('http://localhost:8000/sensors/data');
-        body = await response.json();
-      });
-  
-      test('should have response status 200', () => {
-        expect(response.status).toBe(200);
-      });
-  
-      test('should have content-type', () => {
-        expect(response.headers.get('Content-Type')).toBe('application/json; charset=utf-8');
-      });
-  
-      test('should have an array in the body', () => {
-        expectTypeOf(body).toBeArray();
-      });
-    });
 
-    describe('POST /sensors/data', () => {
-     test("handles CORS", () => {
+    test('should have response status 200', () => {
+      expect(response.status).toBe(200)
+    })
+
+    test('should have content-type', () => {
+      expect(response.headers.get('Content-Type')).toBe('application/json; charset=utf-8')
+    })
+
+    test('should have response status 404 if route not found', async () => {
+      let newResponse = await fetch('http://localhost:8000')
+      expect(newResponse.status).toBe(404)
+
+      newResponse = await fetch('http://localhost:8000')
+      expect(newResponse.status).toBe(404)
+
+    })
+
+    test('should have an array in the body', () => {
+      expectTypeOf(body).toBeArray()
+    })
+
+  })
+
+  describe('POST /sensors/data', () => {
+    test("handles CORS", () => {
       // TODO
-     }) 
-  });
+    })
+  })
 
-
-
-});
-  
+})

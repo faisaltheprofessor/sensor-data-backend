@@ -23,7 +23,7 @@ export const storeSensorData = async (req: Request, res: Response) => {
   const { sensorId, type, value, timestamp } = req.body
 
   // Validate the data
-  const validationError = await validateSensorData(sensorId, type, value, timestamp);
+  const validationError = await validateSensorData(sensorId, type, value, timestamp)
   if (validationError) {
     res.status(500).json({
       success: false,
@@ -32,22 +32,22 @@ export const storeSensorData = async (req: Request, res: Response) => {
     return
   }
 
-// Store the data
+  // Store the data
   sensorService.storeSensorData(Number(sensorId), type, Number(value), timestamp)
     .then((newData) => {
-      res.status(201).json({ success: true, data: newData });
+      res.status(201).json({ success: true, data: newData })
     })
     .catch((error) => {
-      logToFile("Error saving sensor data: ", error);
+      logToFile("Error saving sensor data: ", error)
 
-      console.error("\x1b[31mError saving sensor data:\x1b[0m", error);
-      res.status(500).json({ success: false, error: `${error.message}` });
-    });
+      console.error("\x1b[31mError saving sensor data:\x1b[0m", error)
+      res.status(500).json({ success: false, error: `${error.message}` })
+    })
 }
 
 // Wildcard Route
 export const wildCardRoute = (req: Request, res: Response) => {
-  logToFile(`Route not found: ${ req.url }`)
-  console.log(`\x1b[31mRoute not found: ${ req.url } \x1b[0m`)
+  logToFile(`Route not found: ${req.url}`)
+  console.log(`\x1b[31mRoute not found: ${req.url} \x1b[0m`)
   res.status(404).json({ error: "Route not Found!" })
 }

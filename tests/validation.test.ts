@@ -1,13 +1,11 @@
-import { afterAll, beforeAll, describe, expect, it, vi } from "vitest";
-
-import { validateSensorData } from "../src/utils/requestValidatior";
-import { sensorService } from "../src/services/sensorService";
-import { deleteFile, truncateFile } from "../src/services/fileIOService";
+import { afterAll, describe, expect, it, vi } from "vitest"
+import { validateSensorData } from "../src/utils/requestValidatior"
+import { truncateFile } from "../src/services/fileIOService"
 
 describe("Validation Tests", () => {
-  let dataFilePath = "./data.test.json";
+  let dataFilePath = "./data.test.json"
 
-  afterAll(async() => {
+  afterAll(async () => {
     vi.resetModules()
   })
 
@@ -17,26 +15,25 @@ describe("Validation Tests", () => {
       "Temprature",
       2,
       "2024-11-11 11:11:11"
-    );
-    expect(validated).toEqual("Sensor ID is required and must be a number");
-  });
+    )
+    expect(validated).toEqual("Sensor ID is required and must be a number")
+  })
 
   it("should validate if sensorId is not a number", async () => {
     let validated = await validateSensorData(
- "abc",
+      "abc",
       "Temprature",
       2,
       "2024-11-11 11:11:11"
-    );
-    expect(validated).toEqual("Sensor ID is required and must be a number");
-  });
+    )
+    expect(validated).toEqual("Sensor ID is required and must be a number")
+  })
 
 
   it("should validate if type is missing", async () => {
-    let validated = await validateSensorData(32, "", 2, "2024-11-11 11:11:11");
-    expect(validated).toEqual("Type is required");
-  });
-
+    let validated = await validateSensorData(32, "", 2, "2024-11-11 11:11:11")
+    expect(validated).toEqual("Type is required")
+  })
 
 
   it("should validate if value is missing", async () => {
@@ -45,9 +42,9 @@ describe("Validation Tests", () => {
       "Pressure",
       undefined,
       "2024-11-11 11:11:11"
-    );
-    expect(validated).toEqual("Value is required and must be a number");
-  });
+    )
+    expect(validated).toEqual("Value is required and must be a number")
+  })
 
   it("should validate if value is not a number", async () => {
     let validated = await validateSensorData(
@@ -55,14 +52,14 @@ describe("Validation Tests", () => {
       "Pressure",
       "abc",
       "2024-11-11 11:11:11"
-    );
-    expect(validated).toEqual("Value is required and must be a number");
-  });
+    )
+    expect(validated).toEqual("Value is required and must be a number")
+  })
 
   it("should validate if timestamp is missing", async () => {
-    let validated = await validateSensorData(1000, "Pressure", 2, "");
-    expect(validated).toEqual("Timestamp is required");
-  });
+    let validated = await validateSensorData(1000, "Pressure", 2, "")
+    expect(validated).toEqual("Timestamp is required")
+  })
 
   it("should validate if timestamp is not in a valid format", async () => {
     await truncateFile(dataFilePath)
@@ -71,9 +68,10 @@ describe("Validation Tests", () => {
       "Pressure",
       2,
       "01/02/2024 11:43:22"
-    );
+    )
     expect(validated).toEqual(
       "Invalid timestamp format. Please use the format YYYY-MM-DD H:i:s"
-    );
-  });
-});
+    )
+  })
+
+})

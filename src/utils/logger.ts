@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs')
 
 export const logToFile = (logMessage:string, filePath:string = 'storage/log.txt', error = false)  => {
     const type = error ? "❌"  : "✅" 
@@ -8,5 +8,5 @@ export const logToFile = (logMessage:string, filePath:string = 'storage/log.txt'
         } else {
             // TODO
         }
-    });
-};
+    })
+}
