@@ -12,6 +12,7 @@ describe('API endpoint tests', () => {
   
     describe('GET /sensors/data', () => {
       beforeAll(async () => {
+        vi.resetModules()
         await truncateFile('./data.test.json');
         response = await fetch('http://localhost:8000/sensors/data');
         body = await response.json();
@@ -29,5 +30,14 @@ describe('API endpoint tests', () => {
         expectTypeOf(body).toBeArray();
       });
     });
+
+    describe('POST /sensors/data', () => {
+     test("handles CORS", () => {
+      // TODO
+     }) 
   });
+
+
+
+});
   

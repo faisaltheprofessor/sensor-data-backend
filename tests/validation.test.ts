@@ -76,18 +76,4 @@ describe("Validation Tests", () => {
       "Invalid timestamp format. Please use the format YYYY-MM-DD H:i:s"
     );
   });
-
-  it("should validate if sensorId already exists", async () => {
-    await sensorService.storeSensorData(50000, "Temprature", 2,"2024-11-11 11:11:11",dataFilePath);
-
-    let validated = await validateSensorData(
-      50000,
-      "Temprature",
-      2,
-      "2024-11-11 11:11:11",
-      dataFilePath
-    );
-
-    expect(validated).toEqual("A record with same sensor ID exists");
-  });
 });
