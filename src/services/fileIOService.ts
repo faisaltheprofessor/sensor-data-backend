@@ -119,16 +119,20 @@ const deleteFile = async (filePath: string): Promise<void> => {
 }
 
 /**
- * Deletes a file synchronously.
+ * Deletes a file synchronously if it exists.
  * 
  * @param {string} filePath - The path to the file to be deleted.
- * @returns {void} - No return value. Deletes the file synchronously.
  */
 export const deleteFileSync = (filePath: string) => {
     try {
-        fs.unlinkSync(filePath);
-        console.log(`File ${filePath} deleted successfully`);
+        if (fs.existsSync(filePath)) {
+            fs.unlinkSync(filePath);
+            logToFile(`File ${filePath} deleted successfully`);
+        } else {
+            console.log(`File ${filePath} does not exist.`);
+        }
     } catch (err) {
+        logToFile(`Error deleting file ${filePath}: ${err}`, undefined, true);
         console.error(`Error deleting file ${filePath}:`, err);
     }
 }
