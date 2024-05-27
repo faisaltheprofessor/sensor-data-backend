@@ -1,9 +1,8 @@
-import { afterAll, describe, expect, it, vi } from "vitest"
+import { beforeAll, describe, expect, it, vi } from "vitest"
 import { deleteFile, deleteFileSync, readFromFileOrCreate, truncateFile, writeToFile } from "../src/services/fileIOService"
 
 describe("File I/O Service Tests", () => {
-  afterAll( () => {
-    vi.resetModules()
+  beforeAll( () => {
     deleteFileSync('./data.test.json')
   })
   const dataFilePath = "./data.test.json"
