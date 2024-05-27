@@ -1,5 +1,5 @@
 import { logToFile } from "../utils/logger"
-import { readFromFile, writeToFile } from "./fileIOService"
+import { readFromFileOrCreate, writeToFile } from "./fileIOService"
 
 interface SensorData {
     sensorId: number
@@ -20,7 +20,7 @@ let sensorData: SensorData[] = []
  * @returns {Promise<any>} - A Promise that resolves with paginated sensor data and pagination information.
  */
 const getPaginatedSensorData = (page: number, limit: number, desc: boolean, filePath: string = './data.json'): Promise<any> => {
-    return readFromFile(filePath)
+    return readFromFileOrCreate(filePath)
         .then((data) => {
             sensorData = JSON.parse(data)
             const startIndex = (page - 1) * limit
@@ -63,7 +63,7 @@ const getPaginatedSensorData = (page: number, limit: number, desc: boolean, file
  * @returns {Promise<any>} - A Promise that resolves with the newly stored sensor data.
  */
 const storeSensorData = (sensorId: number, type: string, value: number, timestamp: string, filePath: string = './data.json'): Promise<any> => {
-    return readFromFile(filePath)
+    return readFromFileOrCreate(filePath)
         .then((data) => {
             // Update sensorData with the current data
             sensorData = JSON.parse(data) 

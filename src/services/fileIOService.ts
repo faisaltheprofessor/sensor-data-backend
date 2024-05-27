@@ -3,43 +3,59 @@ import { logToFile } from "../utils/logger"
 const fs = require('fs')
 
 /**
- * Reads data from a file asynchronously.
+ * Create a file if it doesn't exist with a default array content.
+ * 
+ * @param {string} filePath - The path to the file to be created.
+ * @returns {Promise<string>} - A Promise that resolves with the file content as a string.
+ */
+const createFile = async (filePath: string): Promise<string> => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile(filePath, '[]', (err: any) => {
+            if (err) {
+                logToFile(`Error creating file ${filePath}: ${err}`, undefined, true);
+                console.error(`Error creating file ${filePath}:`, err);
+                reject(`Error creating file ${filePath}`);
+            } else {
+                resolve('[]');
+            }
+        });
+    });
+}
+
+/**
+ * Reads data from a file asynchronously, creating the file with default content if it doesn't exist.
  * 
  * @param {string} filePath - The path to the file from which data will be read.
  * @returns {Promise<string>} - A Promise that resolves with the data read from the file as a string.
  */
-const readFromFile = async (filePath: string): Promise<string> => {
+const readFromFileOrCreate = async (filePath: string): Promise<string> => {
     return new Promise((resolve, reject) => {
         fs.readFile(filePath, "utf8", (err: NodeJS.ErrnoException, data: string) => {
             if (err) {
                 if (err.code === 'ENOENT') {
-                    fs.writeFile(filePath, '[]', (err: any) => {
-                        if (err) {
-                            logToFile(`Error creating file ${filePath}: ${err}`, undefined, true)
-                            console.error(`Error creating file ${filePath}:`, err)
-                            reject(`Error creating file ${filePath}`)
-                        } else {
-                            resolve('[]')
-                        }
-                    })
+                    createFile(filePath)
+                        .then((defaultData) => resolve(defaultData))
+                        .catch((createErr) => reject(createErr));
                 } else {
-                    logToFile(`Error reading from file ${filePath}: ${err}`, undefined, true)
-                    console.error(`Error reading from file ${filePath}:`, err)
-                    reject(`Error reading from file ${filePath}`)
+                    logToFile(`Error reading from file ${filePath}: ${err}`, undefined, true);
+                    console.error(`Error reading from file ${filePath}:`, err);
+                    reject(`Error reading from file ${filePath}`);
                 }
             } else {
                 try {
-                    JSON.parse(data)
-                    resolve(data)
+                    JSON.parse(data);
+                    resolve(data);
                 } catch (jsonError) {
-                    logToFile(`Invalid JSON data in file ${filePath}: ${jsonError}`, undefined, true)
-                    console.error(`Invalid JSON data in file ${filePath}:`, jsonError)
-                    reject(`Invalid JSON data in file ${filePath}`)
+                    logToFile(`Invalid JSON data in file ${filePath}: ${jsonError}`, undefined, true);
+                    console.error(`Invalid JSON data in file ${filePath}:`, jsonError);
+                    reject(`Invalid JSON data in file ${filePath}`);
                 }
             }
-        })
-    })
+        });
+    });
 }
+
+
 
 /**
  * Writes data to a file asynchronously.
@@ -117,4 +133,4 @@ export const deleteFileSync = (filePath: string) => {
     }
 }
 
-export { readFromFile, writeToFile, truncateFile, deleteFile }
+export { createFile, readFromFileOrCreate, writeToFile, truncateFile, deleteFile }

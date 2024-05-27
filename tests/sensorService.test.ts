@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeAll, afterAll } from "vitest"
 import { sensorService } from "../src/services/sensorService"
 import { generateFakeData } from "../src/utils/helpers"
-import { deleteFileSync, truncateFile } from "../src/services/fileIOService"
+import {  truncateFile } from "../src/services/fileIOService"
 
 let dataFilePath = "./data.test.json"
 

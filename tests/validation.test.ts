@@ -1,7 +1,6 @@
 import { afterAll, describe, expect, it, vi } from "vitest"
 import { validateSensorData } from "../src/utils/requestValidatior"
-import {  deleteFileSync, truncateFile } from "../src/services/fileIOService"
-import { afterEach } from "node:test"
+import {  truncateFile } from "../src/services/fileIOService"
 
 describe("Validation Tests", () => {
   let dataFilePath = "./data.test.json"
