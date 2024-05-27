@@ -10,6 +10,7 @@ const readFromFile = async (filePath: string): Promise<string> => {
                 if (err.code === 'ENOENT') {
                     fs.writeFile(filePath, '[]', (err: any) => {
                         if (err) {
+                            logToFile(`Error creating file ${filePath}: ${err}`, undefined, true);
                             console.error(`Error creating file ${filePath}:`, err);
                             reject(`Error creating file ${filePath}`);
                         } else {
@@ -17,11 +18,19 @@ const readFromFile = async (filePath: string): Promise<string> => {
                         }
                     });
                 } else {
+                    logToFile(`Error reading from file ${filePath}: ${err}`, undefined, true);
                     console.error(`Error reading from file ${filePath}:`, err);
                     reject(`Error reading from file ${filePath}`);
                 }
             } else {
-                resolve(data);
+                try {
+                    JSON.parse(data);
+                    resolve(data);
+                } catch (jsonError) {
+                    logToFile(`Invalid JSON data in file ${filePath}: ${jsonError}`, undefined, true);
+                    console.error(`Invalid JSON data in file ${filePath}:`, jsonError);
+                    reject(`Invalid JSON data in file ${filePath}`);
+                }
             }
         });
     });
@@ -45,7 +54,7 @@ const writeToFile = async (filePath: string, data: string): Promise<void> => {
 
 const truncateFile = async (filePath: string): Promise<void> => {
     return new Promise((resolve, reject) => {
-        fs.writeFile(filePath, "[]", (err: Error) => {
+        fs.writeFile(filePath, '[]', (err: Error) => {
             if (err) {
                 console.error(`Error truncating file ${filePath}:`, err);
                 reject(`Error truncating file ${filePath}`);
@@ -57,4 +66,19 @@ const truncateFile = async (filePath: string): Promise<void> => {
     });
 }
 
-export { readFromFile, writeToFile, truncateFile};
+const deleteFile = async (filePath: string): Promise<void> => {
+    return new Promise((resolve, reject) => {
+        fs.unlink(filePath, (err: Error) => {
+            if (err) {
+                logToFile(`Error deleting file ${filePath}: ${err}`);
+                reject(`Error deleting file ${filePath}`);
+            } else {
+                logToFile(`File ${filePath} deleted successfully`);
+                resolve();
+            }
+        });
+    });
+}
+
+
+export { readFromFile, writeToFile, truncateFile, deleteFile };

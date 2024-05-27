@@ -33,7 +33,7 @@ export const storeSensorData = async (req: Request, res: Response) => {
   }
 
 // Store the data
-  sensorService.addSensorData(Number(sensorId), type, Number(value), timestamp)
+  sensorService.storeSensorData(Number(sensorId), type, Number(value), timestamp)
     .then((newData) => {
       res.status(201).json({ success: true, data: newData });
     })

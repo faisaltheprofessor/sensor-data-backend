@@ -1,37 +1,46 @@
-import { afterAll, beforeAll, describe, expect, it } from "vitest";
-import { readFromFile, truncateFile, writeToFile } from "../src/services/fileIOService";
+import { afterAll, beforeAll, describe, expect, it, vi } from "vitest";
+import {
+  deleteFile,
+  readFromFile,
+  truncateFile,
+  writeToFile,
+} from "../src/services/fileIOService";
 
-    
+describe("File I/O Service Tests", async () => {
+  afterAll(async() => {
+    vi.resetModules()
 
-describe("File I/O Service Tests", () => {
-    
-    const dataFilePath = './data.test.json';
-    const testFileContent = '[]';
-    beforeAll(async () => {
-        await truncateFile(dataFilePath);
-    });
+    await deleteFile('./data.test.json')
+  })
+  const dataFilePath = "./data.test.json";
 
-    afterAll(async () => {
-        await truncateFile(dataFilePath);
-    });
+  it("should truncate a file to an empty array", async () => {
+    await truncateFile(dataFilePath);
+    const data = await readFromFile(dataFilePath);
+    expect(data).toEqual("[]");
+  });
 
-    it("should read data from a file", async () => {
-        const data = await readFromFile(dataFilePath);
-        expect(data).toEqual(testFileContent);
-    });
+  it("should write data to the file", async () => {
+    const newData = {
+      sensorId: 1,
+      type: "Pressure",
+      value: 30,
+      timestamp: "2024-05-25 13:30:45",
+    };
 
-    it("should write data to a file", async () => {
-        const newData = 'New content';
-        await writeToFile(dataFilePath, newData);
-        const data = await readFromFile(dataFilePath);
-        expect(data).toEqual(newData);
-    });
+    const dataArray = [newData];
+    await writeToFile(dataFilePath, JSON.stringify(dataArray));
+    const data = await readFromFile(dataFilePath);
+    expect(JSON.parse(data)).toContainEqual(newData);
+  });
 
-    it("should truncate a file to empty array", async () => {
-        // Truncate the file to empty array
-        await truncateFile(dataFilePath);
-        const data = await readFromFile(dataFilePath);
-        expect(data).toEqual('[]');
-    });
-
+  it("should read data from the file", async () => {
+    const data = await readFromFile(dataFilePath);
+    expect(data).toEqual(JSON.stringify([{
+      sensorId: 1,
+      type: "Pressure",
+      value: 30,
+      timestamp: "2024-05-25 13:30:45",
+    }]));
+  });
 });

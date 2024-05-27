@@ -44,12 +44,12 @@ const getPaginatedSensorData = (page: number, limit: number, desc: boolean, file
         });
 }
 
-const addSensorData = (sensorId: number, type: string, value: number, timestamp: string, filePath: string = './data.json'): Promise<any> => {
+const storeSensorData = (sensorId: number, type: string, value: number, timestamp: string, filePath: string = './data.json'): Promise<any> => {
     return readFromFile(filePath)
         .then((data) => {
-            sensorData = JSON.parse(data);
+            sensorData = JSON.parse(data); // Update sensorData with the current data
             const newData = { sensorId, type, value, timestamp };
-            sensorData.push(newData);
+            sensorData.push(newData); // Push new data into the sensorData array
             return writeToFile(filePath, JSON.stringify(sensorData))
                 .then(() => {
                     logToFile(JSON.stringify(newData));
@@ -62,7 +62,8 @@ const addSensorData = (sensorId: number, type: string, value: number, timestamp:
         });
 };
 
+
 export const sensorService = {
     getPaginatedSensorData,
-    addSensorData
+    storeSensorData
 };

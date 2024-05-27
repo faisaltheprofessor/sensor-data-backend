@@ -6,6 +6,7 @@ import { logToFile } from "./utils/logger"
 
 const app = express()
 
+
 // Middleware setup
 app.use(corsValidator)
 app.use(express.urlencoded({ extended: true }))
