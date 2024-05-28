@@ -17,6 +17,7 @@ export const getSensorData = (req: Request, res: Response) => {
       res.json(data)
     })
     .catch((error) => {
+      logToFile("Error retrieving sensor data `${error}`", undefined, true)
       console.error("Error retrieving sensor data", error)
       res.status(500).json({ error: "Error retrieving sensor data" })
     })
@@ -35,6 +36,7 @@ export const storeSensorData = async (req: Request, res: Response) => {
   const { sensorId, type, value, timestamp } = req.body
 
   // Validate the data
+
   const validationError = await validateSensorData(sensorId, type, value, timestamp)
   if (validationError) {
     res.status(500).json({

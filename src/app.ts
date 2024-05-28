@@ -3,12 +3,14 @@ import { router } from "./router"
 import { PORT } from "./config/appConfig"
 import { corsValidator } from "./middlewares/corsValidator"
 import { logToFile } from "./utils/logger"
+import { logToFileMiddleware } from "./middlewares/logToFile"
 
 const app = express()
 
 // Middleware setup
 app.use(corsValidator)
 app.use(express.urlencoded({ extended: true }))
+app.use(logToFileMiddleware)
 
 // Routes
 app.use("/", router)
