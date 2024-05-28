@@ -50,7 +50,7 @@ export const storeSensorData = async (req: Request, res: Response) => {
       res.status(201).json({ success: true, data: newData })
     })
     .catch((error) => {
-      logToFile("Error saving sensor data: ", error)
+      logToFile("Error saving sensor data: `${err}`", undefined, true)
 
       console.error("\x1b[31mError saving sensor data:\x1b[0m", error)
       res.status(500).json({ success: false, error: `${error.message}` })
