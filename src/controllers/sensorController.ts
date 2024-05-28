@@ -65,7 +65,7 @@ export const storeSensorData = async (req: Request, res: Response) => {
  * @returns {void} - No return value. Logs a message and sends a response with a 404 status for a route not found.
  */
 export const wildCardRoute = (req: Request, res: Response) => {
-  logToFile(`Route not found: ${req.url}`)
+  logToFile(`Route not found: ${req.url}`, undefined, true)
   console.log(`\x1b[31mRoute not found: ${req.url} \x1b[0m`)
   res.status(404).json({ error: "Route not Found!" })
 }
