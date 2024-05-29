@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(logToFileMiddleware)
 
 // Routes
-app.use("/", router)
+app.use(router)
 
 // Start the server
 app.listen(PORT, () => {
