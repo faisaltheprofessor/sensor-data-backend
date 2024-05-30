@@ -1,11 +1,11 @@
 import { beforeAll, describe, expect, it, vi } from "vitest"
-import { deleteFileSync, readFromFileOrCreate, truncateFile, writeToFile } from "../src/services/fileIOService"
+import { deleteFile, deleteFileSync, readFromFileOrCreate, truncateFile, writeToFile } from "../src/services/fileIOService"
 
 describe("File I/O Service Tests", () => {
   const dataFilePath = "./data.test.json"
 
-  beforeAll( () => {
-    deleteFileSync(dataFilePath)
+  beforeAll( async () => {
+    await deleteFile(dataFilePath)
   })
 
   it("should truncate a file to an empty array", async () => {

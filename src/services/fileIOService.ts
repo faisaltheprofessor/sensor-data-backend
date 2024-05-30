@@ -106,17 +106,25 @@ const truncateFile = async (filePath: string): Promise<void> => {
  */
 const deleteFile = async (filePath: string): Promise<void> => {
     return new Promise((resolve, reject) => {
-        fs.unlink(filePath, (err: Error) => {
+        fs.access(filePath, fs.constants.F_OK, (err: any) => {
             if (err) {
-                logToFile(`Error deleting file ${filePath}: ${err}`)
-                reject(`Error deleting file ${filePath}`)
-            } else {
-                logToFile(`File ${filePath} deleted successfully`)
+                logToFile(`File ${filePath} does not exist`, undefined, true)
                 resolve()
+            } else {
+                fs.unlink(filePath, (err: Error) => {
+                    if (err) {
+                        logToFile(`Error deleting file ${filePath}: ${err}`, undefined, true)
+                        reject(`Error deleting file ${filePath}`)
+                    } else {
+                        logToFile(`File ${filePath} deleted successfully`)
+                        resolve()
+                    }
+                })
             }
-        })
+        });
     })
 }
+
 
 /**
  * Deletes a file synchronously if it exists.
