@@ -56,6 +56,28 @@ const readFromFileOrCreate = async (filePath: string): Promise<string> => {
 }
 
 
+const readFromFile = async (filePath: string): Promise<string> => {
+    return new Promise((resolve, reject) => {
+        fs.readFile(filePath, "utf8", (err: NodeJS.ErrnoException, data: string) => {
+            if (err) {
+                logToFile(`Error reading from file ${filePath}: ${err}`, undefined, true);
+                console.error(`Error reading from file ${filePath}:`, err);
+                reject(`Error reading from file ${filePath}`);
+            } else {
+                try {
+                    JSON.parse(data);
+                    resolve(data);
+                } catch (jsonError) {
+                    logToFile(`Invalid JSON data in file ${filePath}: ${jsonError}`, undefined, true);
+                    console.error(`Invalid JSON data in file ${filePath}:`, jsonError);
+                    reject(`Invalid JSON data in file ${filePath}`);
+                }
+            }
+        });
+    });
+}
+
+
 
 /**
  * Writes data to a file asynchronously.
@@ -145,4 +167,4 @@ export const deleteFileSync = (filePath: string) => {
     }
 }
 
-export { createFile, readFromFileOrCreate, writeToFile, truncateFile, deleteFile }
+export { createFile, readFromFile, readFromFileOrCreate, writeToFile, truncateFile, deleteFile }

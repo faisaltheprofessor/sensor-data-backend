@@ -1,18 +1,18 @@
-import { beforeAll, describe, expect, it, vi } from "vitest"
-import { deleteFile, deleteFileSync, readFromFileOrCreate, truncateFile, writeToFile } from "../src/services/fileIOService"
+import { beforeAll, describe, expect, it, vi } from "vitest";
+import { deleteFile, deleteFileSync, readFromFile, readFromFileOrCreate, truncateFile, writeToFile } from "../src/services/fileIOService";
 
 describe("File I/O Service Tests", () => {
-  const dataFilePath = "./data.test.json"
+  const dataFilePath = "./data.test.json";
 
-  beforeAll( async () => {
-    await deleteFile(dataFilePath)
-  })
+  beforeAll(async () => {
+    await deleteFile(dataFilePath);
+  });
 
   it("should truncate a file to an empty array", async () => {
-    await truncateFile(dataFilePath)
-    const data = await readFromFileOrCreate(dataFilePath)
-    expect(data).toEqual("[]")
-  })
+    await truncateFile(dataFilePath);
+    const data = await readFromFileOrCreate(dataFilePath);
+    expect(data).toEqual("[]");
+  });
 
   it("should write data to the file", async () => {
     const newData = {
@@ -20,21 +20,25 @@ describe("File I/O Service Tests", () => {
       type: "Pressure",
       value: 30,
       timestamp: "2024-05-25 13:30:45",
-    }
-
-    const dataArray = [newData]
-    await writeToFile(dataFilePath, JSON.stringify(dataArray))
-    const data = await readFromFileOrCreate(dataFilePath)
-    expect(JSON.parse(data)).toContainEqual(newData)
-  })
+    };
+// Delete file to get rid of old data
+    const dataArray = [newData];
+    await writeToFile(dataFilePath, JSON.stringify(dataArray));
+    await new Promise((resolve) => setTimeout(resolve, 1000)); // Add delay for synchronization
+    const data = await readFromFile(dataFilePath);
+    expect(JSON.parse(data)).toContainEqual(newData);
+  });
 
   it("should read data from the file", async () => {
-    const data = await readFromFileOrCreate(dataFilePath)
-    expect(data).toEqual(JSON.stringify([{
-      sensorId: 1,
-      type: "Pressure",
-      value: 30,
-      timestamp: "2024-05-25 13:30:45",
-    }]))
-  })
-})
+    const data = await readFromFile(dataFilePath);
+    await new Promise((resolve) => setTimeout(resolve, 1000)); // Add delay for synchronization
+    expect(data).toEqual(JSON.stringify([
+      {
+        sensorId: 1,
+        type: "Pressure",
+        value: 30,
+        timestamp: "2024-05-25 13:30:45",
+      }
+    ]));
+  });
+});

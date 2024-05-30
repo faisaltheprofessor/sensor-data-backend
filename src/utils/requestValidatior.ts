@@ -1,4 +1,4 @@
-import { readFromFileOrCreate, writeToFile } from "../services/fileIOService"
+import { readFromFile, readFromFileOrCreate, writeToFile } from "../services/fileIOService"
 import { sensorService } from "../services/sensorService"
 import { logToFile } from "./logger"
 
@@ -14,7 +14,7 @@ export const validateSensorData = async (
   if (!Number(sensorId) || isNaN(Number(sensorId))) {
     errors.push("Sensor ID is required and must be a number")
   } else {
-    let data = JSON.parse(await readFromFileOrCreate(dataFile))
+    let data = JSON.parse(await readFromFile(dataFile))
     if (
       data.some(
         (record: { sensorId: number }) => record.sensorId === Number(sensorId)
