@@ -3,7 +3,6 @@ import { truncateFile, deleteFileSync } from '../src/services/fileIOService'
 
 describe('API endpoint tests', () => {
   afterAll(async () => {
-    deleteFileSync('.data.test.json')
     vi.resetModules()
   })
 

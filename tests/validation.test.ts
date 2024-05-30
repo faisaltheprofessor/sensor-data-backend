@@ -1,11 +1,12 @@
 import { afterAll, describe, expect, it, vi } from "vitest"
 import { validateSensorData } from "../src/utils/requestValidatior"
-import {  truncateFile } from "../src/services/fileIOService"
+import {  deleteFileSync, truncateFile } from "../src/services/fileIOService"
 
 describe("Validation Tests", () => {
   let dataFilePath = "./data.test.json"
 
   afterAll(() => {
+    deleteFileSync('./data.test.json')
     vi.resetModules()
   })
 
@@ -14,7 +15,8 @@ describe("Validation Tests", () => {
       "",
       "Temprature",
       2,
-      "2024-11-11 11:11:11"
+      "2024-11-11 11:11:11",
+      dataFilePath
     )
     expect(validated).toEqual("Sensor ID is required and must be a number")
   })
@@ -24,14 +26,15 @@ describe("Validation Tests", () => {
       "abc",
       "Temprature",
       2,
-      "2024-11-11 11:11:11"
+      "2024-11-11 11:11:11",
+      dataFilePath
     )
     expect(validated).toEqual("Sensor ID is required and must be a number")
   })
 
 
   it("should validate if type is missing", async () => {
-    let validated = await validateSensorData(32, "", 2, "2024-11-11 11:11:11")
+    let validated = await validateSensorData(32, "", 2, "2024-11-11 11:11:11", dataFilePath)
     expect(validated).toEqual("Type is required")
   })
 
@@ -41,7 +44,8 @@ describe("Validation Tests", () => {
       1000,
       "Pressure",
       undefined,
-      "2024-11-11 11:11:11"
+      "2024-11-11 11:11:11",
+      dataFilePath
     )
     expect(validated).toEqual("Value is required and must be a number")
   })
@@ -51,13 +55,14 @@ describe("Validation Tests", () => {
       1000,
       "Pressure",
       "abc",
-      "2024-11-11 11:11:11"
+      "2024-11-11 11:11:11",
+      dataFilePath
     )
     expect(validated).toEqual("Value is required and must be a number")
   })
 
   it("should validate if timestamp is missing", async () => {
-    let validated = await validateSensorData(1000, "Pressure", 2, "")
+    let validated = await validateSensorData(1000, "Pressure", 2, "", dataFilePath)
     expect(validated).toEqual("Timestamp is required")
   })
 
@@ -67,7 +72,8 @@ describe("Validation Tests", () => {
       1000,
       "Pressure",
       2,
-      "01/02/2024 11:43:22"
+      "01/02/2024 11:43:22",
+      dataFilePath
     )
     expect(validated).toEqual(
       "Invalid timestamp format. Please use the format YYYY-MM-DD H:i:s"
