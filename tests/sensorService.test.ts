@@ -1,11 +1,17 @@
 import { describe, it, expect, beforeAll, afterAll } from "vitest"
 import { sensorService } from "../src/services/sensorService"
 import { generateFakeData } from "../src/utils/helpers"
-import {  truncateFile } from "../src/services/fileIOService"
+import {  deleteFile, truncateFile } from "../src/services/fileIOService"
 
 let dataFilePath = "./data.test.json"
 
 describe("Sensor Service Tests", () => {
+  beforeAll(async () => {
+    deleteFile('./data.test.json')
+  })
+  afterAll(async() => {
+    deleteFile('./data.test.json')
+  })
   it("should store new sensor data successfully", async () => {
     await truncateFile(dataFilePath)
     const newData = await sensorService.storeSensorData(1, "Pressure", 30, "2024-05-25 13:30:45", dataFilePath)

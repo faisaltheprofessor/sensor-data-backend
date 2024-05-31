@@ -2,7 +2,7 @@ import { afterAll, beforeAll, describe, expect, expectTypeOf, test, vi } from 'v
 import { truncateFile, deleteFileSync } from '../src/services/fileIOService'
 
 describe('API endpoint tests', () => {
-  afterAll(async () => {
+  beforeAll(async () => {
     vi.resetModules()
   })
 

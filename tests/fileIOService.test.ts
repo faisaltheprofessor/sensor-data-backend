@@ -4,10 +4,6 @@ import { deleteFile, deleteFileSync, readFromFileOrCreate, truncateFile, writeTo
 describe("File I/O Service Tests", () => {
   const dataFilePath = "./data.test.json"
 
-  beforeAll( async () => {
-    await deleteFile(dataFilePath)
-  })
-
   it("should truncate a file to an empty array", async () => {
     await truncateFile(dataFilePath)
     const data = await readFromFileOrCreate(dataFilePath)
